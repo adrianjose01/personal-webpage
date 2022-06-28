@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap");
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #222;
+}
+
+.show {
+  animation: title 2s forwards;
+  /* animation-fill-mode: forwards; */
+}
+.element {
+  opacity: 0;
+  margin-bottom: 20px;
+}
+
+/* Header */
+header {
+  height: 100vh;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  background: linear-gradient(to left, #2ec4b6, #cbf3f0);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  display: block;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+@keyframes title {
+  0% {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+header p {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.personal-photo {
+  display: flex;
+  justify-content: center;
+}
+
+.personal-photo div {
+  width: 300px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.personal-photo div img {
+  height: 50vh;
+  width: auto;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container img {
+  margin: 0 10px;
+  width: 50px;
+  height: fit-content;
+  padding: 3px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
+.icon div {
+  padding-top: 10px;
+  width: 80px;
+}
+
+/* main */
+main {
+  display: flex;
+  justify-content: center;
+}
+.main-container {
+  max-width: 650px;
+}
+
+h2 {
+  font-size: 700 italic;
+  color: #fff;
+  text-align: center;
+}
+
+main p {
+  margin: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  align-content: center;
+  box-shadow: 2px 2px 53px 9px rgba(0, 0, 0, 0.41);
+  -webkit-box-shadow: 2px 2px 53px 9px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 2px 2px 53px 9px rgba(0, 0, 0, 0.41);
+}
+
+img {
+  width: 100%;
+}
+
+@media (min-width: 780px) {
+  h1 {
+    font-size: 50px;
+  }
+}
