@@ -75,11 +75,14 @@ header p {
   justify-content: center;
 }
 
-.contact-container img {
-  margin: 0 10px;
+.contact-container div {
   width: 50px;
-  height: fit-content;
+  margin: 0 10px;
   padding: 3px;
+}
+
+.contact-container img {
+  height: fit-content;
 }
 
 .icon {
