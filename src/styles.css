@@ -81,10 +81,6 @@ header p {
   padding: 3px;
 }
 
-.contact-container img {
-  height: fit-content;
-}
-
 .icon {
   display: flex;
   justify-content: center;
