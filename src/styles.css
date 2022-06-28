@@ -38,7 +38,7 @@ h1 {
 @keyframes title {
   0% {
     opacity: 0;
-    transform: translateX(-20%);
+    transform: translateY(-20%);
   }
   100% {
     opacity: 1;
@@ -68,6 +68,7 @@ header p {
 .personal-photo div img {
   height: 50vh;
   width: auto;
+  object-fit: cover;
 }
 
 .contact-container {
@@ -129,6 +130,10 @@ main p {
   box-shadow: 2px 2px 53px 9px rgba(0, 0, 0, 0.41);
   -webkit-box-shadow: 2px 2px 53px 9px rgba(0, 0, 0, 0.41);
   -moz-box-shadow: 2px 2px 53px 9px rgba(0, 0, 0, 0.41);
+}
+
+.media-icons :hover {
+  transform: scale(1.1);
 }
 
 img {
