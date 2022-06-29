@@ -1,0 +1,12 @@
+{
+  "name": "personal-webpage-adrianjose01",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Adrian De Jesus personal webpage",
+  "scripts": {
+    "format": "prettier -w  src/**/*"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
