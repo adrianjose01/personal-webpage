@@ -60,7 +60,7 @@ header p {
 
 .personal-photo div {
   width: 300px;
-  margin: 20px;
+  margin: 20px 20px 0 20px;
   display: flex;
   justify-content: center;
 }
@@ -69,6 +69,26 @@ header p {
   height: 50vh;
   width: auto;
   object-fit: cover;
+}
+
+.resume-container {
+  text-align: center;
+  margin: 15px;
+}
+
+.resume-container a {
+  text-decoration: none;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  color: inherit;
+}
+.resume-container div {
+  display: inline-block;
+}
+
+.resume-container div:hover {
+  transform: scale(1.1);
 }
 
 .contact-container {
