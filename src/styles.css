@@ -2,10 +2,12 @@
 
 html {
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
-  background-color: #222;
+  /* background-color: #5c5c5c; */
+  background-color: #2c2c2c;
 }
 
 .show {
@@ -22,13 +24,35 @@ header {
   min-height: 100vh;
 }
 
+nav {
+  max-width: 650px;
+  margin: 30px auto 30px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: #dff6ff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.logo {
+  width: 75px;
+  margin-left: 30px;
+}
+
 h1 {
   font-size: 40px;
   font-weight: 700;
-  background: linear-gradient(to left, #2ec4b6, #cbf3f0);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+  color: #dff6ff;
   text-align: center;
   display: block;
   margin-bottom: 0px;
@@ -78,10 +102,9 @@ header p {
 
 .resume-container a {
   text-decoration: none;
-  background-color: white;
   padding: 5px;
   border-radius: 5px;
-  color: inherit;
+  color: #dff6ff;
 }
 .resume-container div {
   display: inline-block;
