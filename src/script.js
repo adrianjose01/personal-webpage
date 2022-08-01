@@ -1,4 +1,6 @@
 const elements = document.querySelectorAll(".element");
+const menuBtn = document.querySelector(".menu-btn");
+const menuList = document.querySelector(".list");
 
 const observer = new IntersectionObserver(
   (entries) => {
@@ -16,3 +18,11 @@ const observer = new IntersectionObserver(
 elements.forEach((el) => {
   observer.observe(el);
 });
+
+menuBtn.addEventListener("click", () => {
+  menuList.classList.toggle("hidden");
+});
+
+const addHiddenClass = function () {
+  menuList.classList.add("hidden");
+};

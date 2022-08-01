@@ -12,13 +12,18 @@
     <header class="element">
       <!-- Header nav -->
       <nav>
-        <div class="logo">
+        <a href="#" class="logo">
           <img src="/static/img/adrian logo.png" alt="" />
+        </a>
+        <div class="menu">
+          <ul class="list hidden">
+            <li><a href="#about" onclick="addHiddenClass()">About</a></li>
+            <li><a href="#skils" onclick="addHiddenClass()">Skills</a></li>
+          </ul>
+          <button class="menu-btn">
+            <img src="./static/icons8-menu-rounded-50.png" alt="menu button" />
+          </button>
         </div>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skils">Skills</a></li>
-        </ul>
       </nav>
       <!-- header title -->
       <div>

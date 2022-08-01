@@ -30,6 +30,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 nav ul {
@@ -42,6 +43,43 @@ nav ul li a {
   color: #dff6ff;
   text-decoration: none;
   padding: 10px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .menu-btn {
+    display: block;
+  }
+
+  .list {
+    display: block;
+    position: absolute;
+    background-color: black;
+    width: 80vw;
+    left: -60px;
+    height: 105%;
+    top: -7%;
+  }
+  .list li {
+    margin: 30px;
+  }
+  .list li a {
+    font-size: 25px;
+  }
+
+  .hidden {
+    display: none;
+  }
 }
 
 .logo {
