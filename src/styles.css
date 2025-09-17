@@ -182,6 +182,50 @@ main {
   max-width: 650px;
 }
 
+section {
+  margin-top: 4rem;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border: 1px solid white;
+  border-radius: 1.5rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+label span {
+  margin-top: 1rem;
+  color: white;
+}
+
+label input {
+  width: 15rem;
+}
+
+#btn-submit {
+  margin: 1rem;
+  padding: 0.5rem 3rem;
+  background-color: white;
+  border-radius: 1.5rem;
+  border: none;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#btn-submit:hover {
+  opacity: 0.7;
+}
+
 h2 {
   font-size: 700 italic;
   color: #fff;
